@@ -1,5 +1,5 @@
 # Conway's Game Of Life
-I was following a course to review my Java skills and implement Mathematician James Conway's Game Of Life using Java Swing.
+I was following a course to review my Java skills and I implemented a version of Mathematician John Conway's Game Of Life using Java Swing.
 
 ## Controls
 
