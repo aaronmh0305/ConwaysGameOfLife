@@ -3,6 +3,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.File;
 
 import javax.swing.JPanel;
 
@@ -132,6 +133,15 @@ public class GamePanel extends JPanel {
 	
 	public void randomize() {
 		world.randomize();
+		repaint();
+	}
+
+	public void save(File selectedFile) {
+		world.save(selectedFile);
+	}
+
+	public void load(File selectedFile) {
+		world.load(selectedFile);
 		repaint();
 	}
 	
